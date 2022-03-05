@@ -11,19 +11,19 @@ The protocol consists of a series of Ethereum smart contracts that enable the cr
 
 The objectives are:
 
-- ***Use cryptocurrencies as payment***, being an alternative to the money currently used, with the benefit that they do not involve the use of intermediaries, such as banks.
+- **Use cryptocurrencies as payment**, being an alternative to the money currently used, with the benefit that they do not involve the use of intermediaries, such as banks.
 
-- ***Allow the purchase of any physical or digital goods***, with the ***optional use of the ERC-721 standard (NFTs)***. Giving users the option of tokenizing the goods as an alternative, thus enabling them to earn passive income, either through resale or by having a proportional part of the good in the form of a token.
+- **Allow the purchase of any physical or digital goods**, with the **optional use of the ERC-721 standard (NFTs)**. Giving users the option of tokenizing the goods as an alternative, thus enabling them to earn passive income, either through resale or by having a proportional part of the good in the form of a token.
 
-- ***Incentivize users to use the platform***, so that the users themselves manage the future of the protocol, through a governance system. In addition, a reputation system will be used as a buyer and seller, allowing to obtain more or less rewards, depending on the actions that the users of the protocol decide to do.
+- **Incentivize users to use the platform**, so that the users themselves manage the future of the protocol, through a governance system. In addition, a reputation system will be used as a buyer and seller, allowing to obtain more or less rewards, depending on the actions that the users of the protocol decide to do.
 
-- ***Minimize fraud and lack of confidence*** of buyers and sellers through established rules.
+- **Minimize fraud and lack of confidence** of buyers and sellers through established rules.
 
-- ***Avoid at all costs the use of third parties or intermediaries***, but as it is a peer-to-peer system, even though the protocol minimizes fraud as much as possible, incidents can always occur, for this, optionally, the protocol will have a system with which a reliable administrator, initially from the CiperShop team, and later may be other administrators chosen by the community, will resolve the incident based on the evidence provided.
+- **Avoid at all costs the use of third parties or intermediaries**, but as it is a peer-to-peer system, even though the protocol minimizes fraud as much as possible, incidents can always occur, for this, optionally, the protocol will have a system with which a reliable administrator, initially from the CiperShop team, and later may be other administrators chosen by the community, will resolve the incident based on the evidence provided.
 
-- ***Be transparent at all times***, open source, well documented and available to users from the start.
+- **Be transparent at all times**, open source, well documented and available to users from the start.
 
-- ***Have a simple and easily accessible interface*** for any type of audience.
+- **Have a simple and easily accessible interface** for any type of audience.
 
 ## How does the CipherShop protocol work?
 

@@ -13,11 +13,11 @@ The DAO is based on the original "The DAO" created in 2016, which it's smart con
 
 Our DAO, is a major version of the original and adapted to the CipherShop ecosystem. Our DAO has three components: two on-chain and another off-chain.
 
-- ***An ethereum ERC-20 standard***, or a token named ***CSHOP*** (on-chain).
+- **An ethereum ERC-20 standard**, or a token named **CSHOP** (on-chain).
 
-- ***A governance system*** through which to vote on proposals, with which to: decide to update the protocol, decide which associations to donate or projects to fund, and change aspects of the CipherShop protocol, such as fees (on-chain).
+- **A governance system** through which to vote on proposals, with which to: decide to update the protocol, decide which associations to donate or projects to fund, and change aspects of the CipherShop protocol, such as fees (on-chain).
 
-- ***A forum*** A forum, to pre-discuss proposals, see people's decisions and based on this decide whether it is worthwhile or not to make a proposal. Or where to debate about proposals made (off-chain).
+- **A forum** A forum, to pre-discuss proposals, see people's decisions and based on this decide whether it is worthwhile or not to make a proposal. Or where to debate about proposals made (off-chain).
 
 ## The ERC-20 standard CSHOP
 
@@ -33,15 +33,15 @@ The contract has been created from the latest version of OppenZeppelin and modif
 
 Initially 1,000,000,000,000 (one billion) CSHOP will be minted, being distributed over 4 years in the following proportions:
 
-- ***56% for the community and the community treasury.*** At 4 years: 560,000,000 CSHOP.
+- **56% for the community and the community treasury.** At 4 years: 560,000,000 CSHOP.
 
-- ***24,333% for the development team.*** At 4 years: 243,330,000 CSHOP.
+- **24,333% for the development team.** At 4 years: 243,330,000 CSHOP.
 
-- ***18,069% for investors.*** At 4 years: 180,690,000 CSHOP.
+- **18,069% for investors.** At 4 years: 180,690,000 CSHOP.
 
-- ***0.968% for small initial investors.*** At 4 years: 9,680,000 CSHOP.
+- **0.968% for small initial investors.** At 4 years: 9,680,000 CSHOP.
 
-- ***0.63% for advertisers.*** At 4 years: 6,300,000 CSHOP.
+- **0.63% for advertisers.** At 4 years: 6,300,000 CSHOP.
 
 A total of 120,000,000 CSHOP will initially be available to the community and the community treasury. Of these, 20,000,000,000 (16.6667%) will be available in the protocol's smart contract, to incentivize users to use the protocol.
 

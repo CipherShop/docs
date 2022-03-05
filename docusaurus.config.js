@@ -108,14 +108,17 @@ const config = {
               {
                 label: 'Home',
                 href: 'https://ciphershop.org',
+                target: '_self'
               },
               {
                 label: 'App',
                 href: 'https://app.ciphershop.org',
+                target: '_self'
               },
               {
                 label: 'DAO',
                 href: 'https://dao.ciphershop.org',
+                target: '_self'
               }
             ],
           },
@@ -137,11 +140,13 @@ const config = {
             items: [
               {
                 label: 'Forum',
-                href: 'https://forum.ciphershop.org'
+                href: 'https://forum.ciphershop.org',
+                target: '_self'
               },
               {
                 label: 'Blog',
                 href: 'https://ciphersop.org/blog',
+                target: '_self'
               },
               {
                 label: 'Contact',
