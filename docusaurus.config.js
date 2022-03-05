@@ -132,6 +132,7 @@ const config = {
               {
                 label: 'Whitepaper',
                 href: 'https://ciphershop.org/whitepaper',
+                target: '_self'
               }
             ],
           },
@@ -145,7 +146,7 @@ const config = {
               },
               {
                 label: 'Blog',
-                href: 'https://ciphersop.org/blog',
+                href: 'https://ciphershop.org/blog',
                 target: '_self'
               },
               {
