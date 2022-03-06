@@ -31,6 +31,6 @@ In the latter repository, there is the CipherShop documentation. Created with th
 
 > Access the repository: [github.com/CipherShop/docs](https://github.com/CipherShop/docs).
 
-## Maintain
+# Maintain
 
 Any user can be part of the community and help maintain or improve the CipherShop ecosystem.

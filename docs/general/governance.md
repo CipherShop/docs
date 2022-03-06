@@ -8,7 +8,9 @@ sidebar_position: 3
 ## The DAO
 
 :::info
+
 The DAO is based on the original "The DAO" created in 2016, which it's smart contracts bugs provoqued the hard fork of Ethereum, creating Ethereum Classic and the actual Ethereum.
+
 :::
 
 Our DAO, is a major version of the original and adapted to the CipherShop ecosystem. Our DAO has three components: two on-chain and another off-chain.
@@ -17,7 +19,7 @@ Our DAO, is a major version of the original and adapted to the CipherShop ecosys
 
 - **A governance system** through which to vote on proposals, with which to: decide to update the protocol, decide which associations to donate or projects to fund, and change aspects of the CipherShop protocol, such as fees (on-chain).
 
-- **A forum** A forum, to pre-discuss proposals, see people's decisions and based on this decide whether it is worthwhile or not to make a proposal. Or where to debate about proposals made (off-chain).
+- **A forum** to pre-discuss proposals, see people's decisions and based on this decide whether it is worthwhile or not to make a proposal. Or where to debate about proposals made (off-chain).
 
 ## The ERC-20 standard CSHOP
 

@@ -1,53 +1,53 @@
 ---
-sidebar_label: 'The Protocol'
+sidebar_label: 'El Protocolo'
 sidebar_position: 2
 ---
 
-# The Protocol
+# El Protocolo
 
-## Objectives of the protocol
+## Objetivos del protocolo
 
-The protocol consists of a series of Ethereum smart contracts that enable the creation of CipherShop's primary targets.
+El protocolo consiste en una serie de contratos inteligentes de Ethereum que permiten la creación de los principales objetivos de CipherShop.
 
-The objectives are:
+Los objetivos son:
 
-- ***Use cryptocurrencies as payment***, being an alternative to the money currently used, with the benefit that they do not involve the use of intermediaries, such as banks.
+- **Utilizar criptomonedas como medio de pago**, siendo una alternativa al dinero que se utiliza actualmente, con la ventaja de que no implican el uso de intermediarios, como los bancos.
 
-- ***Allow the purchase of any physical or digital goods***, with the ***optional use of the ERC-721 standard (NFTs)***. Giving users the option of tokenizing the goods as an alternative, thus enabling them to earn passive income, either through resale or by having a proportional part of the good in the form of a token.
+- **Permitir la compra de cualquier bien físico o digital**, con el **uso opcional del estándar ERC-721 (NFTs)**. Dar a los usuarios la opción de tokenizar los bienes como alternativa, permitiéndoles así obtener ingresos pasivos, ya sea mediante la reventa o teniendo una parte proporcional del bien en forma de token.
 
-- ***Incentivize users to use the platform***, so that the users themselves manage the future of the protocol, through a governance system. In addition, a reputation system will be used as a buyer and seller, allowing to obtain more or less rewards, depending on the actions that the users of the protocol decide to do.
+- **Incentivar a los usuarios para que utilicen la plataforma**, de forma que sean los propios usuarios los que gestionen el futuro del protocolo, a través de un sistema de gobernanza. Además, se utilizará un sistema de reputación como comprador y vendedor, permitiendo obtener más o menos recompensas, en función de las acciones que los usuarios del protocolo decidan realizar.
 
-- ***Minimize fraud and lack of confidence*** of buyers and sellers through established rules.
+- **Minimizar el fraude y la falta de confianza** de compradores y vendedores mediante normas establecidas.
 
-- ***Avoid at all costs the use of third parties or intermediaries***, but as it is a peer-to-peer system, even though the protocol minimizes fraud as much as possible, incidents can always occur, for this, optionally, the protocol will have a system with which a reliable administrator, initially from the CiperShop team, and later may be other administrators chosen by the community, will resolve the incident based on the evidence provided.
+- **Evitar a toda costa el uso de terceros o intermediarios**, pero al tratarse de un sistema peer-to-peer, aunque el protocolo minimice al máximo el fraude, siempre pueden producirse incidencias, para ello, opcionalmente, el protocolo dispondrá de un sistema con el que un administrador de confianza, inicialmente del equipo de CiperShop, y posteriormente podrán ser otros administradores elegidos por la comunidad, resolverá la incidencia en base a las pruebas aportadas.
 
-- ***Be transparent at all times***, open source, well documented and available to users from the start.
+- **Ser transparente en todo momento**, de código abierto, bien documentado y disponible para los usuarios desde el principio.
 
-- ***Have a simple and easily accessible interface*** for any type of audience.
+- **Tener una interfaz sencilla y fácilmente accesible** para cualquier tipo de público.
 
-## How does the CipherShop protocol work?
+## ¿Cómo funciona el protocolo CiperShop?
 
-To achieve the aforementioned objectives, Ethereum-based smart contracts have been created, developed in Solidity 0.8.11.
+Para lograr los objetivos mencionados, se han creado contratos inteligentes basados en Ethereum, desarrollados en Solidity 0.8.11.
 
-The operation of the protocol consists in the use of a third party as an intermediary. In this case, the third party consists of an Ethereum smart contract in which the deposits will be held. 
+El funcionamiento del protocolo consiste en el uso de un tercero como intermediario. En este caso, el tercero consiste en un contrato inteligente de Ethereum en el que se mantendrán los depósitos.
 
-When the buyer has received the product, the seller will receive the money.
+Cuando el comprador haya recibido el producto, el vendedor recibirá el dinero.
 
-In detail, a user with a wallet with Web 3.0 access, such as MetaMask, Fortmatic, WalletConnect, and so on. He or she will have access to the interface designed to interact with the protocol.
+En detalle, un usuario con un monedero con acceso a la Web 3.0, como MetaMask, Fortmatic, WalletConnect, etc. Tendrá acceso a la interfaz diseñada para interactuar con el protocolo.
 
-A user, in this case a seller, using an Ethereum address can register a physical or digital product, along with some characteristics: title, description, product photos, category, price, type of cryptocurrency, country from which it is shipped, country or countries to which it is shipped, shipping method, shipping time, if it allows returns, if it is visible to the public or if it is only visible to certain Ethereum addresses.
+Un usuario, en este caso un vendedor, utilizando una dirección Ethereum puede registrar un producto físico o digital, junto con algunas características: título, descripción, fotos del producto, categoría, precio, tipo de criptomoneda, país desde el que se envía, país o países a los que se envía, método de envío, tiempo de envío, si permite devoluciones, si es visible para el público o si sólo es visible para determinadas direcciones Ethereum.
 
-Another user, in this case a buyer, will be able to make offers for a lower price, or buy the product directly. In case of an offer, it will go to the smart contract creating a deposit, with the details of the offer and a validity date. After the validity time if the seller does not accept the offer, this deposit will be refunded to the buyer. If he accepts it, it will become as if it were a direct purchase, so the rest of the offers will be cancelled and the deposits will be returned to their corresponding users. And a transaction will be initiated.
+Otro usuario, en este caso un comprador, podrá hacer ofertas por un precio menor, o comprar el producto directamente. En el caso de una oferta, ésta irá al contrato inteligente creando un depósito, con los detalles de la oferta y una fecha de validez. Pasado el tiempo de validez, si el vendedor no acepta la oferta, este depósito será devuelto al comprador. Si la acepta, se convertirá en una compra directa, por lo que el resto de las ofertas serán canceladas y los depósitos serán devueltos a sus correspondientes usuarios. Y se iniciará una transacción.
 
-In the transaction, the characteristics of the purchase are detailed, such as the product, the quantity and its status, that is, if it has been marked as sent by the seller, received by the seller, received by the buyer, if a return has been requested, in case the seller has indicated that he accepts returns, and in case of return, the same but in reverse, if the buyer has marked it as, sent, received, etcetera.
+En la transacción se detallan las características de la compra, como el producto, la cantidad y su estado, es decir, si se ha marcado como enviado por el vendedor, recibido por el vendedor, recibido por el comprador, si se ha solicitado una devolución, en caso de que el vendedor haya indicado que acepta devoluciones, y en caso de devolución, lo mismo pero a la inversa, si el comprador lo ha marcado como, enviado, recibido, etcétera.
 
-The transaction will end in various states, and may end successfully, charging a commission of 0.3%, of which 70% will go to the community treasury, and 30% to the smart contract itself, to pay for future automated transactions. Depending on how the transaction status is finalized, it will influence the reputation as a seller or the reputation as a buyer, as the case may be.
+La transacción terminará en varios estados, y puede terminar con éxito, cobrando una comisión del 0,3%, de la cual el 70% irá a la tesorería de la comunidad, y el 30% al propio contrato inteligente, para pagar futuras transacciones automatizadas. Dependiendo de cómo finalice el estado de la transacción, influirá la reputación como vendedor o la reputación como comprador, según sea el caso.
 
-In case of incidents, a reliable administrator, initially from the CiperShop team and then chosen by the community, will be involved in the transaction. He will be in charge of resolving the transfer in favor of the buyer or the seller on the basis of the evidence provided. It should be noted that the seller is in charge of the entire process until receipt of the product by the buyer, otherwise the intermediary will act in favor of the buyer.
+En caso de incidencias, un administrador de confianza, inicialmente del equipo de CiperShop y luego elegido por la comunidad, intervendrá en la transacción. Él será el encargado de resolver la transferencia a favor del comprador o del vendedor en base a las pruebas aportadas. Hay que tener en cuenta que el vendedor se encarga de todo el proceso hasta la recepción del producto por parte del comprador, en caso contrario el intermediario actuará a favor del comprador.
 
-:::note
+:::nota Nota
 
-For more details about the mechanism of the protocol see the 
-[Whitepaper page](/docs/learn/whitepaper)
+Para más detalles sobre el mecanismo del protocolo, consulte la 
+página [Whitepaper](/docs/learn/whitepaper)
 
 :::

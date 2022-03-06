@@ -1,4 +1,4 @@
 ---
-sidebar_label: 'Registration'
+sidebar_label: 'Registro'
 sidebar_position: 1
 ---

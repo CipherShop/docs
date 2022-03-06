@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Glossary'
+sidebar_label: 'Glosario'
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ Términos que pueden resultar desconocidos para el usuario medio. Relacionados c
 
 ## Angular
 
-Angular es un marco de trabajo de aplicación web gratuito y de código abierto basado en TypeScript, dirigido por el equipo de Angular en Google y por una comunidad de personas y empresas.
+Angular es un marco de aplicación web gratuito y de código abierto basado en TypeScript, dirigido por el equipo de Angular en Google y por una comunidad de personas y empresas.
 
 ## Backend
 
@@ -21,127 +21,127 @@ Bitcoin es una moneda digital descentralizada, sin banco central ni administrado
 
 ## Blockchain
 
-A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format.
+Una blockchain o cadena de bloques, es una base de datos distribuida que se comparte entre los nodos de una red informática. Como base de datos, una cadena de bloques almacena información electrónicamente en formato digital.
 
 ## Cardano
 
-Cardano is a public blockchain platform. It is open-source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal cryptocurrency, ADA. Cardano was founded in 2015 by Ethereum co-founder Charles Hoskinson.
+Cardano es una plataforma de cadena de bloques pública. Es de código abierto y está descentralizada, y el consenso se logra mediante pruebas de participación. Puede facilitar las transacciones entre pares con su criptomoneda interna, ADA. Cardano fue fundada en 2015 por el cofundador de Ethereum, Charles Hoskinson.
 
 ## CEX
 
-A cryptocurrency exchange, or a digital currency exchange, is a business that allows customers to trade cryptocurrencies or digital currencies for other assets, such as conventional fiat money or other digital currencies.
+Una bolsa de criptomonedas, o una bolsa de monedas digitales, es un negocio que permite a los clientes intercambiar criptomonedas o monedas digitales por otros activos, como dinero fiduciario convencional u otras monedas digitales.
 
 ## CipherShop
 
-CipherShop is an automatic, decentralized and user-governed marketplace for buying and selling physical or digital goods, based on a layer 2 rollup of Ethereum.
+CipherShop es un mercado automático, descentralizado y gobernado por el usuario para la compra y venta de bienes físicos o digitales, basado en una segunda capa de Ethereum.
 
 ## CSHOP
 
-CSHOP is the internal cryptocurrency of CipherShop.
+CSHOP es la criptomoneda interna de CipherShop.
 
 ## DAO
 
-A decentralized autonomous organization, sometimes called a decentralized autonomous corporation, is an organization represented by rules encoded as a computer program that is transparent, controlled by the organization members and not influenced by a central government.
+Una organización autónoma descentralizada, a veces llamada corporación autónoma descentralizada, es una organización representada por reglas codificadas como un programa informático que es transparente, controlada por los miembros de la organización y no influenciada por un gobierno central.
 
 ## DAPP
 
-A decentralised application is an application that can operate autonomously, typically through the use of smart contracts, that runs on a decentralized computing, blockchain system. Like traditional applications, DApps provide some function or utility to its users.
+Una aplicación descentralizada es una aplicación que puede operar de forma autónoma, normalmente mediante el uso de contratos inteligentes, que se ejecuta en un sistema informático descentralizado, blockchain. Al igual que las aplicaciones tradicionales, las DApps proporcionan alguna función o utilidad a sus usuarios.
 
 ## DeFi
 
-Decentralized finance offers financial instruments without relying on intermediaries such as brokerages, exchanges, or banks. Instead, it uses smart contracts on a blockchain.
+Las finanzas descentralizadas ofrecen instrumentos financieros sin depender de intermediarios como corredores, bolsas o bancos. En su lugar, utiliza contratos inteligentes en una cadena de bloques.
 
 ## DEX
 
-Decentralized exchanges are a type of cryptocurrency exchange which allows for direct peer-to-peer cryptocurrency transactions to take place online securely and without the need for an intermediary.
+Los intercambios descentralizados son un tipo de intercambio de criptodivisas que permite realizar transacciones directas de criptodivisas en línea de forma segura y sin necesidad de un intermediario.
 
 ## Docusaurus
 
-Docusaurus is a project for easily building, deploying, and maintaining open source project websites. Docusaurus is a tool in the Documentation as a Service & Tools category of a tech stack.
+Docusaurus es un proyecto para construir, desplegar y mantener fácilmente sitios web de proyectos de código abierto. Docusaurus es una herramienta de la categoría Documentación como servicio y herramientas de una pila tecnológica.
 
 ## ERC-20
 
-ERC20 is an official protocol for proposing improvements to the Ethereum (ETH) network. ERC stands for Ethereum Request for Comment, and 20 is the proposal identifier. This is a common standard for creating tokens on the Ethereum blockchain.
+ERC20 es un protocolo oficial para proponer mejoras en la red Ethereum (ETH). ERC significa Ethereum Request for Comment, y 20 es el identificador de la propuesta. Se trata de un estándar común para crear tokens en la blockchain de Ethereum.
 
 ## ERC-721
 
-ERC-721 is an open standard that describes how to build Non-Fungible tokens on EVM (Ethereum Virtual Machine) compatible blockchains; it is a standard interface for Non-Fungible tokens; it has a set of rules which make it easy to work with NFTs. NFTs are not only of ERC-721 type; they can also be ERC-1155 tokens.
+ERC-721 es un estándar abierto que describe cómo construir tokens no fungibles en blockchains compatibles con EVM (Ethereum Virtual Machine); es una interfaz estándar para tokens no fungibles; tiene un conjunto de reglas que facilitan el trabajo con NFTs. Los NFT no sólo son del tipo ERC-721; también pueden ser tokens ERC-1155.
 
 ## Ethereum
 
-Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Among cryptocurrencies, Ether is second only to Bitcoin in market capitalization. Ethereum was conceived in 2013 by programmer Vitalik Buterin.
+Ethereum es una cadena de bloques descentralizada y de código abierto con funcionalidad de contrato inteligente. Ether es la criptomoneda nativa de la plataforma. Entre las criptodivisas, Ether es la segunda en capitalización bursátil después de Bitcoin. Ethereum fue concebido en 2013 por el programador Vitalik Buterin.
 
 ## Express.js
 
-Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
+Express.js, o simplemente Express, es un marco de trabajo de aplicaciones web para Node.js, publicado como software libre y de código abierto bajo la licencia MIT. Está diseñado para construir aplicaciones web y APIs. Ha sido llamado el marco de servidor estándar de facto para Node.js.
 
 ## Framework
 
-In computer programming, a software framework is an abstraction in which software, providing generic functionality, can be selectively changed by additional user-written code, thus providing application-specific software.
+En programación informática, un framework o marco de trabajo de software, es una abstracción en la que el software, que proporciona una funcionalidad genérica, puede modificarse selectivamente mediante código adicional escrito por el usuario, proporcionando así un software específico para la aplicación.
 
 ## Front-end
 
-Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.
+El desarrollo web front-end es el desarrollo de la interfaz gráfica de usuario de un sitio web, mediante el uso de HTML, CSS y JavaScript, para que los usuarios puedan ver e interactuar con ese sitio web.
 
 ## Fortmatic
 
-Fortmatic is an easy-to-use alternative to web3 wallets like Metamask. It allows users to use a phone number or email address to connect to Ethereum-based applications, all without the need for a browser extension. Fortmatic has since rebranded to Magic.
+Fortmatic es una alternativa fácil de usar a los monederos web3 como Metamask. Permite a los usuarios utilizar un número de teléfono o una dirección de correo electrónico para conectarse a aplicaciones basadas en Ethereum, todo ello sin necesidad de una extensión del navegador. Desde entonces, Fortmatic ha cambiado su nombre por el de Magic.
 
 ## GitHub
 
-GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
+GitHub, Inc. es un proveedor de alojamiento en Internet para el desarrollo de software y el control de versiones mediante Git. Ofrece la funcionalidad de control de versiones distribuidas y gestión de código fuente de Git, además de sus propias características.
 
 ## IPFS
 
-The InterPlanetary File System is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. IPFS uses content-addressing to uniquely identify each file in a global namespace connecting all computing devices.
+El sistema de archivos interplanetario es un protocolo y una red de pares para almacenar y compartir datos en un sistema de archivos distribuido. El IPFS utiliza direcciones de contenido para identificar de forma exclusiva cada archivo en un espacio de nombres global que conecta todos los dispositivos informáticos.
 
 ## Layer-1 blockchain
 
-A layer-1 blockchain is a set of solutions that improve the base protocol itself to make the overall system a lot more scalable. There are two most common layer-1 solutions, and these are the consensus protocol changes as well as sharding.
+Una cadena de bloques de capa 1 es un conjunto de soluciones que mejoran el propio protocolo base para hacer que el sistema general sea mucho más escalable. Hay dos soluciones de capa 1 más comunes, que son los cambios en el protocolo de consenso y la fragmentación.
 
 ## Layer-2 blockchain
 
-Layer 2s are built on top of the Ethereum blockchain, keeping transactions secure, speedy, and scalable. Each individual solution has its own pros and cons to consider such as throughput, gas fees, security, scalability, and of course functionality.
+Las segundas capas se construyen sobre la blockchain de Ethereum, manteniendo las transacciones seguras, rápidas y escalables. Cada solución individual tiene sus propios pros y contras a considerar, como el rendimiento, las tasas de gas, la seguridad, la escalabilidad y, por supuesto, la funcionalidad.
 
 ## MetaMask
 
-MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.
+MetaMask es un monedero de criptomonedas por software que se utiliza para interactuar con la cadena de bloques de Ethereum. Permite a los usuarios acceder a su monedero Ethereum a través de una extensión del navegador o una aplicación móvil, que luego puede utilizarse para interactuar con aplicaciones descentralizadas.
 
 ## Middleware functions
 
-Middleware functions are functions that have access to the request object (req), the response object (res), and the next function in the application's request-response cycle. Middleware functions can perform the following tasks: Execute any code. Make changes to the request and the response objects.
+Las funciones de middleware son funciones que tienen acceso al objeto de solicitud (req), al objeto de respuesta (res) y a la siguiente función en el ciclo de solicitud-respuesta de la aplicación. Las funciones Middleware pueden realizar las siguientes tareas Ejecutar cualquier código. Realizar cambios en los objetos de solicitud y respuesta.
 
 ## Node.js
 
-Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+Node.js es un entorno de ejecución de JavaScript de código abierto y multiplataforma que se ejecuta en el motor V8 y ejecuta código JavaScript fuera de un navegador web.
 
-## npm
+## Npm
 
-npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
+Npm es un gestor de paquetes para el lenguaje de programación JavaScript mantenido por npm, Inc. npm es el gestor de paquetes por defecto para el entorno de ejecución JavaScript Node.js. Consiste en un cliente de línea de comandos, también llamado npm, y una base de datos en línea de paquetes públicos y privados de pago, llamada registro npm.
 
 ## Off-chain transactions
 
-Off-chain transactions refer to those which occur outside of the blockchain itself.
+Las transacciones fuera de la cadena se refieren a las que ocurren fuera de la propia cadena de bloques.
 
 ## On-chain transactions
 
-On-chain transactions are transactions that occur on a blockchain that are reflected on the distributed, public ledger. On-chain transactions are those that have been validated or authenticated and lead to an update to the overall blockchain network.
+Las transacciones en la cadena son transacciones que se producen en una cadena de bloques y que se reflejan en el libro mayor público distribuido. Las transacciones en la cadena son aquellas que han sido validadas o autenticadas y conducen a una actualización de la red global de la cadena de bloques.
 
 ## Optimistic rollup
 
-Optimistic Rollups (ORs) are one type of layer 2 constructions that do not run on Ethereum's base layer but on top of it. This enables running smart contracts at scale while still being secured by Ethereum.
+Los Optimistic Rollups (ORs) son un tipo de construcciones de capa 2 que no se ejecutan sobre la capa base de Ethereum, sino sobre ella. Esto permite ejecutar contratos inteligentes a escala sin dejar de estar protegidos por Ethereum.
 
 ## Polkadot
 
-Polkadot is an open source, blockchain platform and cryptocurrency that allows for distributed computing. The network uses a proof of stake consensus algorithm. The protocol used, Blind Assignment for Blockchain Extension, is derived from Ouroboros.
+Polkadot es una plataforma blockchain de código abierto y una criptomoneda que permite la computación distribuida. La red utiliza un algoritmo de consenso de prueba de participación. El protocolo utilizado, Blind Assignment for Blockchain Extension, se deriva de Ouroboros.
 
 ## Polygon
 
-Polygon is essentially a “Layer 2” network built on the Ethereum blockchain to mitigate the traffic load on the main blockchain.
+Polygon es esencialmente una red de "capa 2" construida sobre la blockchain de Ethereum para mitigar la carga de tráfico en la blockchain principal.
 
 ## POS
 
-Proof of stake protocols are a class of consensus mechanisms for blockchains that work by selecting validators in proportion to their quantity of holdings in the associated cryptocurrency. This is done to avoid the computational cost of proof of work schemes.
+Los protocolos de prueba de participación son una clase de mecanismos de consenso para blockchains que funcionan seleccionando validadores en proporción a su cantidad de participaciones en la criptomoneda asociada. Esto se hace para evitar el coste computacional de los esquemas de prueba de trabajo.
 
 ## POW
 
@@ -149,44 +149,44 @@ Proof of work is a form of cryptographic proof in which one party proves to othe
 
 ## React
 
-React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+La prueba de trabajo es una forma de prueba criptográfica en la que una parte demuestra a otras que se ha gastado una determinada cantidad de un esfuerzo computacional específico. Los verificadores pueden confirmar posteriormente este gasto con un esfuerzo mínimo por su parte.
 
 ## Reddit
 
-Reddit is an American social news aggregation, web content rating, and discussion website. Registered members submit content to the site such as links, text posts, images, and videos, which are then voted up or down by other members.
+Reddit es un sitio web estadounidense de agregación de noticias sociales, clasificación de contenidos web y debate. Los miembros registrados envían contenidos al sitio, como enlaces, mensajes de texto, imágenes y vídeos, que luego son votados por otros miembros.
 
 ## Smart contract
 
-A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement.
+Un contrato inteligente es un programa informático o un protocolo de transacción cuyo objetivo es ejecutar, controlar o documentar automáticamente eventos y acciones legalmente relevantes según los términos de un contrato o un acuerdo.
 
 ## Solana
 
-Solana is a decentralized blockchain built to enable scalable, user-friendly apps for the world.
+Solana es un blockchain descentralizado construido para permitir aplicaciones escalables y fáciles de usar para el mundo.
 
 ## Telegram
 
-Telegram is a freeware, cross-platform, cloud-based instant messaging service. The service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. It was launched for iOS on 14 August 2013 and Android in October 2013.
+Telegram es un servicio de mensajería instantánea gratuito, multiplataforma y basado en la nube. El servicio también ofrece videollamadas encriptadas de extremo a extremo, VoIP, intercambio de archivos y varias otras características. Se lanzó para iOS el 14 de agosto de 2013 y para Android en octubre de 2013.
 
 ## Twitter
 
-Twitter is an American microblogging and social networking service on which users post and interact with messages known as "tweets". Registered users can post, like, and retweet tweets, but unregistered users can only read those that are publicly available.
+Twitter es un servicio estadounidense de microblogging y redes sociales en el que los usuarios publican e interactúan con mensajes conocidos como "tweets". Los usuarios registrados pueden publicar, dar "me gusta" y retuitear tweets, pero los usuarios no registrados solo pueden leer los que están disponibles públicamente.
 
 ## Wallet address
 
-A wallet address is a randomly generated set of numbers and letters. This set usually consists of 26 to 35 alphanumeric characters. A wallet address is ideally a one-time link generated by a wallet. Wallet addresses are needed to send or receive digital assets.
+La dirección de un monedero es un conjunto de números y letras generado aleatoriamente. Este conjunto suele constar de 26 a 35 caracteres alfanuméricos. Una dirección de monedero es idealmente un enlace de un solo uso generado por un monedero. Las direcciones de cartera son necesarias para enviar o recibir activos digitales.
 
 ## WalletConnect
 
-WalletConnect is an open source protocol for connecting decentralized applications to cryptocurrency wallets with QR code scanning or deep linking. WalletConnect was launched in March 2018.
+WalletConnect es un protocolo de código abierto para conectar aplicaciones descentralizadas a carteras de criptodivisas con el escaneo de códigos QR o la vinculación profunda. WalletConnect se lanzó en marzo de 2018.
 
 ## Web 3.0
 
-Also known as the decentralized web, Web 3.0 is the third version of the Internet, which is an improvement over the current Web 2.0 Internet. Under Web 2.0, Internet has become more social. The third version of the internet will have more transparency and boast massive content that will be accessible to all.
+También conocida como la web descentralizada, la Web 3.0 es la tercera versión de Internet, que supone una mejora respecto a la actual Web 2.0. Con la Web 2.0, Internet se ha vuelto más social. La tercera versión de Internet tendrá más transparencia y contará con contenidos masivos que serán accesibles para todos.
 
 ## Whitepaper
 
-A whitepaper is a document that details a project's concept, roadmap and how it plans to grow in the future.
+Un libro blanco es un documento que detalla el concepto de un proyecto, su hoja de ruta y cómo piensa crecer en el futuro.
 
 ## ZK-Rollup
 
-Described as a “layer 2 construction that increases scalability through mass transfer processing rolled into a single transaction,” ZK-Rollups vastly reduce the computing and storage resources required to validate blocks, by decreasing the amount of data in a transaction.
+Descrito como una "construcción de capa 2 que aumenta la escalabilidad a través del procesamiento de transferencia masiva enrollado en una sola transacción", los ZK-Rollups reducen enormemente los recursos informáticos y de almacenamiento necesarios para validar bloques, al disminuir la cantidad de datos en una transacción.
