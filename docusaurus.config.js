@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/CipherShop/docs/tree/main/packages/docs/',
+          editUrl: 'https://github.com/CipherShop/docs/tree/master/',
         },
         // showLastUpdateAuthor: true,
         // showLastUpdateTime: true,
@@ -54,7 +54,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'learn/smart-contracts',
+            docId: 'learn/smart-contracts/introduction',
             position: 'left',
             label: 'Learn',
           },
@@ -94,7 +94,7 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: '/docs/learn/smart-contracts',
+                to: '/docs/learn/smart-contracts/introduction',
               },
               {
                 label: 'Maintain',

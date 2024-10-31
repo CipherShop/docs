@@ -45,7 +45,7 @@ La transacción terminará en varios estados, y puede terminar con éxito, cobra
 
 En caso de incidencias, un administrador de confianza, inicialmente del equipo de CiperShop y luego elegido por la comunidad, intervendrá en la transacción. Él será el encargado de resolver la transferencia a favor del comprador o del vendedor en base a las pruebas aportadas. Hay que tener en cuenta que el vendedor se encarga de todo el proceso hasta la recepción del producto por parte del comprador, en caso contrario el intermediario actuará a favor del comprador.
 
-:::nota Nota
+:::note Nota
 
 Para más detalles sobre el mecanismo del protocolo, consulte la 
 página [Whitepaper](/docs/learn/whitepaper)

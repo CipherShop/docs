@@ -13,23 +13,23 @@ La DAO se basa en la original "The DAO" creada en 2016, cuyos errores en los con
 
 :::
 
-Nuestra DAO, es una versión mayor del original y adaptada al ecosistema de CipherShop. Nuestra DAO tiene tres componentes: dos en la cadena y otro fuera.
+Nuestra DAO, es una versión mayor del original y adaptada al ecosistema de CipherShop. Esta tiene tres componentes: dos en la red y otro fuera de la red.
 
-- **Un estándar ERC-20 de Ethereum**, o un token llamado **CSHOP** (en la cadena).
+- **Un estándar ERC-20 de Ethereum**, o un token llamado **CSHOP** (en la red).
 
-- **Un sistema de gobernanza** a través del cual votar propuestas, con las que: decidir la actualización del protocolo, decidir qué asociaciones donar o proyectos financiar, y cambiar aspectos del protocolo CipherShop, como las tarifas (en la cadena).
+- **Un sistema de gobernanza** a través del cual votar propuestas, con las que: decidir la actualización del protocolo, decidir a qué asociaciones donar o proyectos financiar, y cambiar aspectos del protocolo CipherShop, como las tarifas (en la red).
 
-- **Un foro** para pre-discutir propuestas, ver las decisiones de la gente y en base a esto decidir si vale la pena o no hacer una propuesta. O donde debatir sobre las propuestas realizadas (fuera de la cadena).
+- **Un foro** para pre-discutir propuestas, ver las decisiones de la gente y en base a esto decidir si vale la pena o no hacer una propuesta. O donde debatir sobre las propuestas realizadas (fuera de la red).
 
 ## El estándar ERC-20 CSHOP
 
 El token ERC-20 CSHOP ha sido creado con un objetivo en mente: animar a los usuarios a utilizar el protocolo y permitirles, a través de la DAO, cumplir sus objetivos.
 
-> La dirección Ethereum del token CSHOP es: [0x0000000000000000000000000000000000000000](https://etherscan.io/address/0x0000000000000000000000000000000000000000).
+> La dirección Ethereum del token CSHOP es: [0x547b5362a0aa165cf98237c98cda5a4003f5ca9f](https://etherscan.io/address/0x547b5362a0aa165cf98237c98cda5a4003f5ca9f).
 
 El contrato ha sido creado a partir de la última versión de OppenZeppelin y modificado con las funciones necesarias.
 
-> Para ver el contrato inteligente puede acceder al repositorio core, e inspeccionar el propio contrato inteligente, [aquí](https://github.com/CipherShop/core/contracts/tokens/CSHOP.sol).
+> Para ver el contrato inteligente puede acceder al repositorio core, e inspeccionar el propio contrato inteligente, [aquí](https://github.com/CipherShop/core/tree/master/contracts/CShop.sol).
 
 ### Distribución de CSHOP
 
@@ -39,13 +39,13 @@ Inicialmente se crearán 1.000.000.000 (mil millones) de CSHOP, que se distribui
 
 - **24,333% para el equipo de desarrollo.** A los 4 años: 243.330.000 CSHOP.
 
-- **18,069% para los inversores. ** A los 4 años: 180.690.000 CSHOP.
+- **18,069% para los inversores.** A los 4 años: 180.690.000 CSHOP.
 
-- **0.968% para pequeños inversores iniciales.** A los 4 años: 9.680.000 CSHOP.
+- **0,968% para pequeños inversores iniciales.** A los 4 años: 9.680.000 CSHOP.
 
-- **0.63% para los anunciantes.** A los 4 años: 6.300.000 CSHOP.
+- **0,63% para los anunciantes.** A los 4 años: 6.300.000 CSHOP.
 
-Un total de 120.000.000 de CSHOP estarán inicialmente disponibles para la comunidad y la tesorería de la comunidad. De ellos, 20.000.000.000 (16,6667%) estarán disponibles en el contrato inteligente del protocolo, para incentivar a los usuarios a utilizarlo.
+Un total de 120.000.000 de CSHOP estarán inicialmente disponibles para la comunidad y la tesorería de la comunidad. De estos, 20.000.000 (16,6667%) estarán disponibles en el contrato inteligente del protocolo, para incentivar a los usuarios a utilizarlo.
 
 Como se puede ver, hay dos fases de captación de inversores, la primera fase disponible para cualquier usuario tendrá como objetivo recaudar una cantidad mínima de capital, para auditar el protocolo y ver vulnerabilidades, lanzar el protocolo y contratar miembros para el equipo, que actualmente es una persona.
 
@@ -72,7 +72,7 @@ Después de 4 años, habrá una tasa de inflación anual del 1,6%.
 En la primera distribución a pequeños inversores, 2.000.000 CSHOP estarán disponibles para su compra directa a través de un contrato inteligente, garantizando así la seguridad. Con un precio inicial de 0,16 dólares, con un incremento de 0,01 dólares por cada 400.000 CSHOP vendidos.
 
 :::info
-Esta distribución está disponible actualmente [aquí](https://ciphershop.org/blog/investors#buy), until the 15 of June 2022.
+Esta distribución está disponible actualmente [aquí](https://ciphershop.org/es/blog/initial-private-purchase-available), hasta agotar existencias.
 :::
 
 La segunda fase de captación de inversores corresponderá al lanzamiento oficial de la moneda, junto con el protocolo, una vez que haya sido debidamente auditado y probado. Con el objetivo de atraer a grandes inversores que quieran formar parte del proyecto, financiándolo y ayudando a crear un gran ecosistema.

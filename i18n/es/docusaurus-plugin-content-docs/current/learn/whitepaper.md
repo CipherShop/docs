@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Whitepaper'
+sidebar_label: 'Libro blanco'
 sidebar_position: 2
 ---
 
@@ -31,4 +31,4 @@ El contenido del libro blanco es:
 
 6. **Referencias**
 
-> Para ver el libro blanco original o traducido, y saber más sobre todos los aspectos del protocolo CipherShop, acceda a esta web [aquí](https://ciphershop.org/whitepaper).
+> Para ver el libro blanco original o traducido, y saber más sobre todos los aspectos del protocolo CipherShop, acceda a esta web [aquí](https://ciphershop.org/es/whitepaper).

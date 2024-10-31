@@ -31,6 +31,6 @@ En este último repositorio se encuentra la documentación de CipherShop. Creado
 
 > Accede al repositorio: [github.com/CipherShop/docs](https://github.com/CipherShop/docs).
 
-# Mantener
+# Mantenimiento
 
 Cualquier usuario puede formar parte de la comunidad y ayudar a mantener o mejorar el ecosistema CipherShop.
