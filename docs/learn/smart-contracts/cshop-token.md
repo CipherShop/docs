@@ -6,16 +6,18 @@ sidebar_position: 2
 # Smart Contract: The CHSOP Token
 
 :::note
+
 You can see the original contract [here](https://github.com/CipherShop/core/tree/master/contracts/CShop.sol).
+
 :::
 
 ## Introduction
 
-The smart contract was created using the Solidity language in version 0.8.26.
+The smart contract was created using the Solidity language in version 0.8.7.
 
-For its creation, we based it on the OpenZeppelin ERC-20 token contracts, version 4.4 (see [here](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/release-v4.4)).
+For its creation, we based it on the OpenZeppelin ERC-20 standard contracts, version 4.8 (see [here](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/release-v4.8/contracts/token/ERC20)).
 
-## Library Functions
+## Libraries
 
 We basically use the OpenZeppelin ERC-20 token library and the SafeMath library, to avoid overflow problems in operations.
 
@@ -73,7 +75,7 @@ You can see the distribution of the CSHOP token that will be made, [here](/docs/
 
 :::
 
-#### Modifying the address that allows creating tokens
+#### Modifying the Address that Allows Creating Tokens
 
 This feature allows you to change the address that can create tokens, only the address mentioned above can change it. It is worth noting that this address is currently in the hands of the CipherShop team and will remain that way for the time being.
 
@@ -83,7 +85,7 @@ This feature allows you to change the address that can create tokens, only the a
         minter = _address;
     }
 
-#### Loop transfer
+#### Loop Transfer
 
 This last feature allows for multiple token sends to multiple addresses with different amounts. This feature has been introduced so that the protocol can easily send tokens, for example in annual distributions.
 
@@ -95,3 +97,13 @@ This last feature allows for multiple token sends to multiple addresses with dif
             transfer(addresses[i], quantities[i]);
         }
     }
+
+## Smart Contract on the Blockchain
+
+The smart contract has been launched on the Ethereum mainnet and is available for interaction.
+
+:::info
+
+Go [here](https://etherscan.io/address/0x547b5362a0aa165cf98237c98cda5a4003f5ca9f#code) to view the smart contract live on the Ethereum blockchain.
+
+:::

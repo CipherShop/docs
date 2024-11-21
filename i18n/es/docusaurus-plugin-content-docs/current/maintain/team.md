@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Acerca del equipo
 
-Actualmente nuestro equipo es... 1 persona. Pero, estamos (estoy) abiertos a nuevas incorporaciones.
+Actualmente nuestro equipo es... 1 persona. Pero estamos (estoy) abiertos a nuevas incorporaciones.
 
 Si estás dispuesto a darlo todo, a sudar y a llorar, a sacrificar tu valioso tiempo por este bonito proyecto. Tú eres a quien estamos buscando.
 

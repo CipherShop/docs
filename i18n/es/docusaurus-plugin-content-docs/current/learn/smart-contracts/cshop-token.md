@@ -6,14 +6,16 @@ sidebar_position: 2
 # Contrato inteligente: el token CSHOP
 
 :::note Nota
+
 Puedes ver el contrato original [aquí](https://github.com/CipherShop/core/tree/master/contracts/CShop.sol).
+
 :::
 
 ## Introducción
 
-El contrato inteligente ha sido creado con el lenguaje Solidity en la versión 0.8.26.
+El contrato inteligente ha sido creado con el lenguaje Solidity en la versión 0.8.7.
 
-Para la creación, nos hemos basado en los contratos del token ERC-20 de OpenZeppelin, en la versión 4.4 (ver [aquí](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/release-v4.4)).
+Para la creación, nos hemos basado en los contratos del estándar ERC-20 de OpenZeppelin, en la versión 4.8 (ver [aquí](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/release-v4.8/contracts/token/ERC20)).
 
 ## Librerías
 
@@ -44,7 +46,7 @@ Al inicializar el contrato, definimos la dirección que podrá crear más tokens
 
 #### Creación de CSHOP
 
-La función `mint` se encarga de la creación de más tokens CSHOP. Cabe destacar que solo la puede llamar aquella dirección que se indicó en la inicialización del contrato.
+La función `mint()` se encarga de la creación de más tokens CSHOP. Cabe destacar que solo la puede llamar aquella dirección que se indicó en la inicialización del contrato.
 
     modifier onlyMinter {
         require(_msgSender() == minter);
@@ -96,3 +98,12 @@ Esta última función permite realizar múltiples envíos del token a varias dir
         }
     }
 
+## Contrato en la blockchain
+
+El contrato se ha lanzado a la red principal de Ethereum y está disponible para operar con él.
+
+:::info
+
+Accede [aquí](https://etherscan.io/address/0x547b5362a0aa165cf98237c98cda5a4003f5ca9f#code) para ver el contrato operativo en la blockchain de Ethereum.
+
+:::

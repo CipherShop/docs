@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # About the Team
 
-Currently our team is... 1 person. But, we are (I am) open to new incorporations.
+Currently our team is... 1 person. But we are (I am) open to new incorporations.
 
 If you are willing to give your all, sweat and tears, sacrifice your valuable time for this beautiful project. You are the one we are looking for.
 

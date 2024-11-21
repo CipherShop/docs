@@ -31,6 +31,10 @@ Cardano es una plataforma de cadena de bloques pública. Es de código abierto y
 
 Una bolsa de criptomonedas, o una bolsa de monedas digitales, es un negocio que permite a los clientes intercambiar criptomonedas o monedas digitales por otros activos, como dinero fiduciario convencional u otras monedas digitales.
 
+## CipherPunks
+
+CipherPunks es una colección de 10.000 NFTs que ha sacado CipherShop en paralelo al foro. Un NFT de esta colección proporciona un estado Premium en el foro de CipherShop. 
+
 ## CipherShop
 
 CipherShop es un mercado automático, descentralizado y gobernado por el usuario para la compra y venta de bienes físicos o digitales, basado en una segunda capa de Ethereum.
@@ -63,13 +67,13 @@ Docusaurus es un proyecto para construir, desplegar y mantener fácilmente sitio
 
 ERC20 es un protocolo oficial para proponer mejoras en la red Ethereum (ETH). ERC significa Ethereum Request for Comment, y 20 es el identificador de la propuesta. Se trata de un estándar común para crear tokens en la blockchain de Ethereum.
 
-## ERC-721
+## ERC-721 (NFT)
 
 ERC-721 es un estándar abierto que describe cómo construir tokens no fungibles en blockchains compatibles con EVM (Ethereum Virtual Machine); es una interfaz estándar para tokens no fungibles; tiene un conjunto de reglas que facilitan el trabajo con NFTs. Los NFT no sólo son del tipo ERC-721; también pueden ser tokens ERC-1155.
 
 ## Ethereum
 
-Ethereum es una cadena de bloques descentralizada y de código abierto con funcionalidad de contrato inteligente. Ether es la criptomoneda nativa de la plataforma. Entre las criptodivisas, Ether es la segunda en capitalización bursátil después de Bitcoin. Ethereum fue concebido en 2013 por el programador Vitalik Buterin.
+Ethereum es una cadena de bloques descentralizada y de código abierto con funcionalidad de contrato inteligente. Ether (o ETH) es la criptomoneda nativa de la plataforma. Entre las criptodivisas, Ether es la segunda en capitalización bursátil después de Bitcoin. Ethereum fue concebido en 2013 por el programador Vitalik Buterin.
 
 ## Express.js
 
@@ -171,6 +175,10 @@ Telegram es un servicio de mensajería instantánea gratuito, multiplataforma y 
 
 Twitter es un servicio estadounidense de microblogging y redes sociales en el que los usuarios publican e interactúan con mensajes conocidos como "tweets". Los usuarios registrados pueden publicar, dar "me gusta" y retuitear tweets, pero los usuarios no registrados solo pueden leer los que están disponibles públicamente.
 
+## URI
+
+Un Identificador Uniforme de Recursos (URI) es una cadena de caracteres utilizada para identificar o nombrar un recurso en Internet.
+
 ## Wallet address
 
 La dirección de un monedero es un conjunto de números y letras generado aleatoriamente. Este conjunto suele constar de 26 a 35 caracteres alfanuméricos. Una dirección de monedero es idealmente un enlace de un solo uso generado por un monedero. Las direcciones de cartera son necesarias para enviar o recibir activos digitales.
@@ -182,6 +190,10 @@ WalletConnect es un protocolo de código abierto para conectar aplicaciones desc
 ## Web 3.0
 
 También conocida como la web descentralizada, la Web 3.0 es la tercera versión de Internet, que supone una mejora respecto a la actual Web 2.0. Con la Web 2.0, Internet se ha vuelto más social. La tercera versión de Internet tendrá más transparencia y contará con contenidos masivos que serán accesibles para todos.
+
+## Wei
+
+Wei en Ethereum es la unidad más pequeña de valor en la red.
 
 ## Whitepaper
 

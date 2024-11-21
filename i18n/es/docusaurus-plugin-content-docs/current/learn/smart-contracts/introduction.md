@@ -11,3 +11,4 @@ Actualmente están disponibles los siguientes contratos:
 
 - [Token ERC-20 CSHOP](/docs/learn/smart-contracts/cshop-token)
 - [Pre-compra privada para pequeños inversores](/docs/learn/smart-contracts/cshop-presale)
+- [Colección de NFTs CipherPunks](/docs/learn/smart-contracts/cipherpunks-collection)
