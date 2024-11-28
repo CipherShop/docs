@@ -21,7 +21,7 @@ También nos hemos basado en el contrato de AggregatorV3Interface de ChainLink e
 
 :::info
 
-La precompra privada ya está disponible, y hay 2 millones de tokens CSHOP a la venta. A un precio inicial de 0.16$ por token. Accede [aquí](https://ciphershop.org/es/blog/initial-private-purchase-available) para comprar tus tokens.
+La precompra privada ya está disponible, y hay 2 millones de tokens CSHOP a la venta. A un precio inicial de 0,16$ por token. Accede [aquí](https://ciphershop.org/es/blog/initial-private-purchase-available) para comprar tus tokens.
 
 :::
 
@@ -138,7 +138,7 @@ Dentro de esta función se llaman a las funciones internas: `_preValidatePurchas
 
 La función `_preValidatePurchase()` es la primera función que se ejecuta en `buyTokens()`. Esta se encarga de verificar que los datos del comprador son correctos y que la compra se puede realizar. Posteriormente, obtiene el último valor del precio de ETH en USD, y según los tokens comprados anteriormente, estimar el precio del token CSHOP.
 
-Inicialmente será de 0.16$ por token, con un incremento de 0.01$ por cada 400,000 tokens comprados.
+Inicialmente será de 0,16$ por token, con un incremento de 0,01$ por cada 400.000 tokens comprados.
 
     function _preValidatePurchase(address beneficiary, uint256 weiAmount) internal {
         require(beneficiary != address(0), "Crowdsale: beneficiary is the zero address");
@@ -219,4 +219,4 @@ Accede [aquí](https://etherscan.io/address/0x954faaaa93ff332d149ceb5816e32fefd1
 
 Cabe destacar que hay dos versiones de este contrato inteligente en la red. El primero tenía errores críticos, por lo que lanzamos un segundo contrato (el presente en este página) con los errores corregidos.
 
-Si bien el contrato antiguo posee aproximadamente 2,000,000 (dos millones) de tokens CSHOP, estos tokens se descuentan del monto asignado al equipo de CipherShop, y no entrarán en la categoría de pequeños inversores iniciales, por lo que aquel que adquiera tokens mediante el contrato antiguo, no recibirá las recompensas asignadas a la categoría de pequeños inversores iniciales, que si recibirá si adquiere los tokens mediante el contrato presente en esta página.
+Si bien el contrato antiguo posee aproximadamente 2.000.000 (dos millones) de tokens CSHOP, estos tokens se descuentan del monto asignado al equipo de CipherShop, y no entrarán en la categoría de pequeños inversores iniciales, por lo que aquel que adquiera tokens mediante el contrato antiguo, no recibirá las recompensas asignadas a la categoría de pequeños inversores iniciales, que si recibirá si adquiere los tokens mediante el contrato presente en esta página.

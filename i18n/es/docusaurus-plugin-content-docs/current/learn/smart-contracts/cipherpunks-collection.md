@@ -52,7 +52,7 @@ Al inicializar se crearán 20 NFTs con la dirección que creó el contrato intel
 
 #### Crear NFT
 
-La función `mint()` se encarga de crear los NFTs. Es necesario que se indique la cantidad (hasta un máximo de 20 NFTs por dirección) y se envíe ETH por cada NFT a crear. Actualmente el valor de cada NFT está en 0.06 ETH.
+La función `mint()` se encarga de crear los NFTs. Es necesario que se indique la cantidad (hasta un máximo de 20 NFTs por dirección) y se envíe ETH por cada NFT a crear. Actualmente el valor de cada NFT está en 0,06 ETH.
 
 Esta función determina si la dirección que hace la transacción es el actual propietario del contrato, o si está en una lista blanca. En estos casos, la creación es gratuita. Es caso contrario, tendrá que enviar la cantidad de ETH anteriormente mencionada.
 
@@ -103,7 +103,7 @@ Devuelve los identificadores de la colección que posee una dirección de Ethere
 
 #### Cambiar el precio de creación de un NFT
 
-Función para actualizar el precio de creación de un NFT, solo la puede llamar el actual propietario del contrato. Actualmente está en 0.06 ETH.
+Función para actualizar el precio de creación de un NFT, solo la puede llamar el actual propietario del contrato. Actualmente está en 0,06 ETH.
 
     function setCost(uint256 _newCost) public onlyOwner {
         cost = _newCost;

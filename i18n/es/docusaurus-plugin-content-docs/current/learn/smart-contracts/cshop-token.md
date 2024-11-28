@@ -53,7 +53,7 @@ La función `mint()` se encarga de la creación de más tokens CSHOP. Cabe desta
         _;
     }
 
-Otros detalles a tener en cuenta es que solo se puede utilizar una vez al año, y solo se puede crear hasta un tope del 1.6% del balance total.
+Otros detalles a tener en cuenta es que solo se puede utilizar una vez al año, y solo se puede crear hasta un tope del 1,6% del balance total.
 
     uint32 public constant minimumTimeBetweenMints = 1 days * 365;
 
