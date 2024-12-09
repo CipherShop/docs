@@ -19,7 +19,7 @@ Para la creación, nos hemos basado en los contratos del estándar ERC-721 (NFTs
 
 :::info
 
-La colección CipherPunks ya está disponible, y hay 10,000 de NFTs a la venta. A un precio de 0.06 ETH por NFT. Accede [aquí](https://ciphershop.org/es/cipherpunks) para comprar tus NFTs, con privilegios en el [foro](https://forum.ciphershop.org) y futuras recompensas. Lee más [aquí](https://ciphershop.org/es/blog/the-forum).
+La colección CipherPunks ya está disponible, y hay 10.000 de NFTs a la venta. A un precio de 0,06 ETH por NFT. Accede [aquí](https://ciphershop.org/es/cipherpunks) para comprar tus NFTs, con privilegios en el [foro](https://forum.ciphershop.org) y futuras recompensas. Lee más [aquí](https://ciphershop.org/es/blog/the-forum).
 
 :::
 
