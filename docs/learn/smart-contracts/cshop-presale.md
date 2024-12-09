@@ -31,18 +31,20 @@ We use the OpenZeppelin libraries: Context (to provide information about the exe
 
 Finally, we use the AggregatorV3Interface library from ChainLink, to obtain the value of the Ethereum price in USD (US dollars) in real time.
 
-    import "./utils/Context.sol";
-    import "./IERC20.sol";
-    import "./SafeMath.sol";
-    import "./SafeERC20.sol";
-    import "./utils/ReentrancyGuard.sol";
-    import "./interfaces/AggregatorV3Interface.sol";
+```
+import "./utils/Context.sol";
+import "./IERC20.sol";
+import "./SafeMath.sol";
+import "./SafeERC20.sol";
+import "./utils/ReentrancyGuard.sol";
+import "./interfaces/AggregatorV3Interface.sol";
 
-    contract CSHOPPresale is Context, ReentrancyGuard {
-        using SafeMath for uint256;
-        using SafeERC20 for IERC20;
-        // Contract code
-    }
+contract CSHOPPresale is Context, ReentrancyGuard {
+    using SafeMath for uint256;
+    using SafeERC20 for IERC20;
+    // Contract code
+}
+```
 
 ## Contract Code
 
@@ -52,13 +54,15 @@ When initializing the contract, we define the address of the CSHOP token (0x547b
 
 When initializing, it will perform some security checks and define the price of the CSHOP token, based on the AggregatorV3Interface library and the address 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419, which indicates the relationship between ETH and USD in real time.
 
-    constructor (address payable wallet, IERC20 token) {
-        require(wallet != address(0), "Crowdsale: wallet is the zero address");
-        require(address(token) != address(0), "Crowdsale: token is the zero address");
-        _wallet = wallet;
-        _token = token;
-        priceFeed = AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
-    }
+```
+constructor (address payable wallet, IERC20 token) {
+    require(wallet != address(0), "Crowdsale: wallet is the zero address");
+    require(address(token) != address(0), "Crowdsale: token is the zero address");
+    _wallet = wallet;
+    _token = token;
+    priceFeed = AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
+}
+```
 
 ### Functions
 
@@ -66,71 +70,85 @@ When initializing, it will perform some security checks and define the price of 
 
 The `receive()` function is the default function, that is, if someone sends ETH to the contract without specifying any function, the contract will execute this function, which in turn will execute the `buyTokens()` function in charge of processing the sending of CSHOP tokens according to the amount of ETH sent.
 
-    receive () external payable {
-        buyTokens(_msgSender());
-    }
+```
+receive () external payable {
+    buyTokens(_msgSender());
+}
+```
 
 #### View Sold Token
 
 Returns the address of the token being sold, in this case CSHOP (0x547b5362a0aa165cf98237c98cda5a4003f5ca9f). In this case, being a `public` attribute, it allows you to see the content of the variable.
 
-    IERC20 public _token;
+```
+IERC20 public _token;
+```
 
 #### View Wallet Receiving Funds
 
 Returns the address of the wallet to which the funds will go.
 
-    address payable public _wallet;
+```
+address payable public _wallet;
+```
 
 #### View the Last Value of the Token Price
 
 The ratio is updated in each transaction. Therefore, this function indicates the last amount of tokens per Wei that the last buyer received.
 
-    function rate() public view returns (uint256) {
-        return _rate;
-    }
+```
+function rate() public view returns (uint256) {
+    return _rate;
+}
+```
 
 #### View the Amount of Wei Collected
 
 Returns the amount of Wei collected to date.
 
-    function weiRaised() public view returns (uint256) {
-        return _weiRaised;
-    }
+```
+function weiRaised() public view returns (uint256) {
+    return _weiRaised;
+}
+```
 
 #### View the Amount of Tokens Sold
 
 Returns the amount of tokens sold to date.
 
-    function tokensSold() public view returns (uint256) {
-        return _tokensSold;
-    }
+```
+function tokensSold() public view returns (uint256) {
+    return _tokensSold;
+}
+```
 
 #### Buy CSHOP Tokens
 
 The `buyTokens()` function is the main function that is responsible for verifying that the purchase is allowed and if so, sending the corresponding CSHOP tokens to the buyer.
 
-    function buyTokens(address beneficiary) public nonReentrant payable {
-        uint256 weiAmount = msg.value;
-        _preValidatePurchase(beneficiary, weiAmount);
+```
+function buyTokens(address beneficiary) public nonReentrant payable {
+    uint256 weiAmount = msg.value;
+    _preValidatePurchase(beneficiary, weiAmount);
 
-        // calculate token amount to be created
-        uint256 tokens = _getTokenAmount(weiAmount);
+    // calculate token amount to be created
+    uint256 tokens = _getTokenAmount(weiAmount);
 
-        require(tokensSold().add(tokens) <= 2_000_000 * 1e18, "Crowdsale: tokens sold exceeds the amount available");
+    require(tokensSold().add(tokens) <= 2_000_000 * 1e18, "Crowdsale: tokens sold exceeds the amount available");
 
-        // update state
-        _weiRaised = _weiRaised.add(weiAmount);
-        _tokensSold = _tokensSold.add(tokens);
+    // update state
+    _weiRaised = _weiRaised.add(weiAmount);
+    _tokensSold = _tokensSold.add(tokens);
 
-        _processPurchase(beneficiary, tokens);
-        emit TokensPurchased(_msgSender(), beneficiary, weiAmount, tokens);
+    _processPurchase(beneficiary, tokens);
+    emit TokensPurchased(_msgSender(), beneficiary, weiAmount, tokens);
 
-        _updatePurchasingState(beneficiary, weiAmount);
+    _updatePurchasingState(beneficiary, weiAmount);
 
-        _forwardFunds();
-        _postValidatePurchase(beneficiary, weiAmount);
-    }
+    _forwardFunds();
+    _postValidatePurchase(beneficiary, weiAmount);
+}
+```
 
 Within this function, the internal functions are called: `_preValidatePurchase()`, `_getTokenAmount()`, `_processPurchase()` and `_forwardFunds()`. These are defined below.
 
@@ -140,72 +158,82 @@ The `_preValidatePurchase()` function is the first function that is executed in 
 
 Initially it will be $0.16 per token, with an increase of $0.01 for every 400,000 tokens purchased.
 
-    function _preValidatePurchase(address beneficiary, uint256 weiAmount) internal {
-        require(beneficiary != address(0), "Crowdsale: beneficiary is the zero address");
-        require(weiAmount != 0, "Crowdsale: weiAmount is 0");
-        require(tokensSold() < 2_000_000 * 1e18, "Crowdsale: there are no tokens available for sale");
-        (,int256 _price,,,) = priceFeed.latestRoundData();
-        uint price = uint256(_price).div(100000000);
-        if (tokensSold() > 1_600_000 * 1e18) {
-            uint result = price.div(20).mul(100);
-            _rate = result;
-        }
-        else if (tokensSold() > 1_200_000 * 1e18) {
-            uint result = price.div(19).mul(100);
-            _rate = result;
-        }
-        else if (tokensSold() > 800_000 * 1e18) {
-            uint result = price.div(18).mul(100);
-            _rate = result;
-        }
-        else if (tokensSold() > 400_000 * 1e18) {
-            uint result = price.div(17).mul(100);
-            _rate = result;
-        } else {
-            uint result = price.div(16).mul(100);
-            _rate = result;
-        }
+```
+function _preValidatePurchase(address beneficiary, uint256 weiAmount) internal {
+    require(beneficiary != address(0), "Crowdsale: beneficiary is the zero address");
+    require(weiAmount != 0, "Crowdsale: weiAmount is 0");
+    require(tokensSold() < 2_000_000 * 1e18, "Crowdsale: there are no tokens available for sale");
+    (,int256 _price,,,) = priceFeed.latestRoundData();
+    uint price = uint256(_price).div(100000000);
+    if (tokensSold() > 1_600_000 * 1e18) {
+        uint result = price.div(20).mul(100);
+        _rate = result;
     }
+    else if (tokensSold() > 1_200_000 * 1e18) {
+        uint result = price.div(19).mul(100);
+        _rate = result;
+    }
+    else if (tokensSold() > 800_000 * 1e18) {
+        uint result = price.div(18).mul(100);
+        _rate = result;
+    }
+    else if (tokensSold() > 400_000 * 1e18) {
+        uint result = price.div(17).mul(100);
+        _rate = result;
+    } else {
+        uint result = price.div(16).mul(100);
+        _rate = result;
+    }
+}
+```
 
 ##### buyTokens() Function: Get the Amount of Tokens
 
 The `_getTokenAmount()` function is the second function that runs in `buyTokens()`. It is responsible for obtaining the amount of tokens that the buyer will receive according to the Wei that he has sent.
 
-    function _getTokenAmount(uint256 weiAmount) internal view returns (uint256) {
-        return weiAmount.mul(_rate);
-    }
+```
+function _getTokenAmount(uint256 weiAmount) internal view returns (uint256) {
+    return weiAmount.mul(_rate);
+}
+```
 
 ##### buyTokens() Function: Process Purchase
 
 The `_processPurchase()` function is the third function that runs in `buyTokens()`. It is responsible for processing the purchase and securely sending the purchased CSHOP tokens.
 
-    function _processPurchase(address beneficiary, uint256 tokenAmount) internal {
-        _deliverTokens(beneficiary, tokenAmount);
-    }
+```
+function _processPurchase(address beneficiary, uint256 tokenAmount) internal {
+    _deliverTokens(beneficiary, tokenAmount);
+}
 
-    function _deliverTokens(address beneficiary, uint256 tokenAmount) internal {
-        _token.safeTransfer(beneficiary, tokenAmount);
-    }
+function _deliverTokens(address beneficiary, uint256 tokenAmount) internal {
+    _token.safeTransfer(beneficiary, tokenAmount);
+}
+```
 
 ##### buyTokens() Function: Sending Funds
 
 Finally, after sending the tokens to the buyer, the purchase funds will be sent to the initially indicated fund wallet.
 
-    function _forwardFunds() internal {
-        _wallet.transfer(msg.value);
-    }
+```
+function _forwardFunds() internal {
+    _wallet.transfer(msg.value);
+}
+```
 
 ##### buyTokens() Function: Other Functions
 
 In addition to the functions mentioned, two other functions are used in `buyTokens()`: `_updatePurchasingState()` and `_postValidatePurchase()`. But although these functions do nothing, they have been kept because they are in the standard of the original Crowdsale contract of OpenZeppelin.
 
-    function _updatePurchasingState(address beneficiary, uint256 weiAmount) internal {
-        // solhint-disable-previous-line no-empty-blocks
-    }
+```
+function _updatePurchasingState(address beneficiary, uint256 weiAmount) internal {
+    // solhint-disable-previous-line no-empty-blocks
+}
 
-    function _postValidatePurchase(address beneficiary, uint256 weiAmount) internal view {
-        // solhint-disable-previous-line no-empty-blocks
-    }
+function _postValidatePurchase(address beneficiary, uint256 weiAmount) internal view {
+    // solhint-disable-previous-line no-empty-blocks
+}
+```
 
 ## Contract on the Blockchain
 
